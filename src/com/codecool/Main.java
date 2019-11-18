@@ -19,23 +19,23 @@ import java.io.IOException;
 public class Main extends JPanel implements KeyListener, ActionListener {
 
     private Image background = ImageIO
-            .read(new File("/home/stofi/codecool/OOP/PA/LifeOfAnts/src/resources/ground2.jpg"))
+            .read(new File("/src/resources/ground2.jpg"))
             .getScaledInstance(1300, 800, Image.SCALE_DEFAULT);
 
     private Image queen = ImageIO
-            .read(new File("/home/stofi/codecool/OOP/PA/LifeOfAnts/src/resources/queen.png"))
+            .read(new File("/src/resources/queen.png"))
             .getScaledInstance(18, 18, Image.SCALE_DEFAULT);
 
     private Image drone = ImageIO
-            .read(new File("/home/stofi/codecool/OOP/PA/LifeOfAnts/src/resources/drone.png"))
+            .read(new File("/src/resources/drone.png"))
             .getScaledInstance(18, 18, Image.SCALE_DEFAULT);
 
     private Image soldier = ImageIO
-            .read(new File("/home/stofi/codecool/OOP/PA/LifeOfAnts/src/resources/soldier.png"))
+            .read(new File("/src/resources/soldier.png"))
             .getScaledInstance(18, 18, Image.SCALE_DEFAULT);
 
     private Image worker = ImageIO
-            .read(new File("/home/stofi/codecool/OOP/PA/LifeOfAnts/src/resources/worker.png"))
+            .read(new File("/src/resources/worker.png"))
             .getScaledInstance(18, 18, Image.SCALE_DEFAULT);
 
 
